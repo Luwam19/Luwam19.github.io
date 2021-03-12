@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    /* background:url(images/background.jpg) */
+}
+h1{
+    color: black;
+}
+h3{
+    color: red;
+}
+img {
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+  }
+  
