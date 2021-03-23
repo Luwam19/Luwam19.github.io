@@ -23,5 +23,3 @@ describe("new calculator", function () {
 
 
 });
-
-
