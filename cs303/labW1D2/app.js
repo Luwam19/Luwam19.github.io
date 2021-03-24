@@ -89,18 +89,18 @@ function addBook(book) {
     return book;
 
 }
-// /**
-//  * 
-//  * @param {string} author is book author
-//  * @param {string} title is book title
-//  * @param {string} bookId  is book title
-//  * @returns {Object} the new book
-//  */
-// function makeBook(author, title, bookId) {
-//     const newBook = {
-//         author: author,
-//         title: title,
-//         bookId: bookId
-//     };
-//     return newBook;
-// }
+/**
+ * 
+ * @param {string} author is book author
+ * @param {string} title is book title
+ * @param {string} bookId  is book title
+ * @returns {Object} the new book
+ */
+function makeBook(author, title, bookId) {
+    const newBook = {
+        author: author,
+        title: title,
+        bookId: bookId
+    };
+    return newBook;
+}
