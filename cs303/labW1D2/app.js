@@ -30,9 +30,9 @@ function showTitles() {
  * @returns {undefined}
  */
 function addBrowserBook() {
-    const authorTxtbox = document.getElementById("title");
-    const author = authorTxtbox.value;
-    const newBrowserBook = { author: author, title: "foo", id: "123" };
+    const titleTxtbox = document.getElementById("title");
+    const title = titleTxtbox.value;
+    const newBrowserBook = { author: "sam", title: title, id: "123" };
     addBook(newBrowserBook);
     return;
 }
