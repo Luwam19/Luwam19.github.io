@@ -3,33 +3,33 @@
 /* You need the module.exports when testing in node.  Comment it out when you send your file to the browser */
 //module.exports = { groupById, unique, filterRangeInPlace, filterRange, Calculator,copyAndSort,sortByAge,getAverage,getAverageAge }; //add all of your function names here that you need for the node mocha tests
 
-/**
- * 
- * @param {array}arr  is the array that we pass
- * @param {number}a the staring number
- * @param {number}b the ending number;
- * @returns {array} the result;
- */
-function filterRange(arr, a, b) { 
-    return arr.filter(item => (item >= a && item <= b));
-  }
+// /**
+//  * 
+//  * @param {array}arr  is the array that we pass
+//  * @param {number}a the staring number
+//  * @param {number}b the ending number;
+//  * @returns {array} the result;
+//  */
+// function filterRange(arr, a, b) { 
+//     return arr.filter(item => (item >= a && item <= b));
+//   }
 
- /**
-  * 
-  * @param {array}arr that we pass;
-  * @param {number}a number of index
-  * @param {number} b number of index
-  * @returns{array} the result;
-  */
-  function filterRangeInPlace(arr, a, b) {
-    for(let i=0;i<arr.length;i++){
-    if(a <= arr[i]&&arr[i]>=b){
-    arr.splice(i,1);
-    i--;
-    }
-    }
+//  /**
+//   * 
+//   * @param {array}arr that we pass;
+//   * @param {number}a number of index
+//   * @param {number} b number of index
+//   * @returns{array} the result;
+//   */
+//   function filterRangeInPlace(arr, a, b) {
+//     for(let i=0;i<arr.length;i++){
+//     if(a <= arr[i]&&arr[i]>=b){
+//     arr.splice(i,1);
+//     i--;
+//     }
+//     }
     
-    }
+//     }
 
 /**
  *  calculator
