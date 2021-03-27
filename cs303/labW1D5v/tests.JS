@@ -1,4 +1,4 @@
-/* eslint-disable quotes */
+
 "use strict"
 
   /* global assert    */
