@@ -19,7 +19,6 @@ function filterRange(arr, a, b) {
   * @param {array}arr that we pass;
   * @param {number}a number of index
   * @param {number} b number of index
-  * @returns{undefined}
   */
   function filterRangeInPlace(arr, a, b) {
     for(let i=0;i<arr.length;i++){
