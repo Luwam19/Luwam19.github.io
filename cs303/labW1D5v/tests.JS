@@ -1,5 +1,4 @@
-
-"use strict"
+"use strict";
 
   /* global assert    */
 /* comment out the node specific code when going to the browser*/
