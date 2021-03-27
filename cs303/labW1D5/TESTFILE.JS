@@ -137,7 +137,9 @@ describe("groupById", function() {
     });
 });
 
-    
+    /**
+     * sorting by age
+     */
   describe("sortByAge", function() {
  
     it("creates an object grouped by id", function() {
