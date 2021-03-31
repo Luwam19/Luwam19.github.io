@@ -1,5 +1,5 @@
 "use strict"
- //module.exports = { oddValue, myMap, myreduce,myFilter,multiplyAll,sumValue, };
+ //module.exports = { sum,factorial,fibonacchi };
 
 /**
  * 

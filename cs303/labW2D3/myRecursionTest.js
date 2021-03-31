@@ -1,12 +1,10 @@
 //"use strict"
 // const assert = require("assert");  //always need this with node
 // const myExports = require("./myRecursion.js");
-// const myMap = myExports.myMap;
-// const myFilter = myExports.myFilter;
-// const myreduce = myExports.myreduce;
-// const multiplyAll = myExports.multiplyAll;
-// const oddValue = myExports.oddValue;
-// const sumValue = myExports.sumValue;
+// const sum = myExports.sum;
+// const factorial = myExports.factorial;
+// const fibonacchi = myExports.fibonacchi;
+
   
 describe("numbers using recursion",function(){
 it("get a sum number",function (){
