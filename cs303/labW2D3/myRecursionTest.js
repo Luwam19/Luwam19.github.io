@@ -21,10 +21,5 @@ it("fibonacchi of a number",function (){
 })
 
 
+
 });
-
-
-
-
-
-
